@@ -2,7 +2,6 @@ package com.tgs.radioplayer;
 
 import android.media.AudioTrack;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -29,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvSocketData;
 
     private TextView tvContent;
-
-    private CountDownTimer timer;
 
     private int index = 0;
     private ListView lv;
@@ -144,11 +141,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         multiPlayer.playAsync(mCurrentUrl);
-
-        if (timer != null) {
-            timer.cancel();
-            timer = null;
-        }
     }
 
     private void stop() {
