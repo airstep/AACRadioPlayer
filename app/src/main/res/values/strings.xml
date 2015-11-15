@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RadioPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_start">Start</string>
+    <string name="action_station_chanson">Chanson</string>
+    <string name="action_station_jazz">Jazz</string>
+    <string name="action_read_socket">Read Socket</string>
+</resources>
